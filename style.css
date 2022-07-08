@@ -1,0 +1,51 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+}
+.logo img{
+    width: 350px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+.images img{
+    width: 450px;
+    padding: 5px;
+}
+
+.texts h2{
+    padding: 8px 0px;
+}
+.videos{
+    display: flex;
+    margin: -5px;
+}
+iframe{
+    width: 24vw;
+    height: 250px;
+    padding: 15px 0px;
+    margin: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    align-items: center;
+}
+form input{
+    width: 25vw;
+    text-align: center;
+}
+button{
+   width: 12vh;
+
+}
