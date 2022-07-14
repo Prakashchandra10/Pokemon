@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .images img{
+            height: 500px;
+            border-radius: 20px;
+
+        }
+         body::before{
+            content: "";
+            background: url("bg2.webp") no-repeat;
+            background-size: cover;
+            height: 428vh;
+            width: 100vw;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+        }
+        #image2{
+            position: absolute;
+            right: 10px;
+        }
+        #image3{
+            position: absolute;
+            top: 1010px;
+            overflow: hidden;
+       }
+       #image4{
+        position: absolute;
+        right: 10px;
+        top: 1520px;
+       }
+       #image5{
+        position: absolute;
+        top: 2030px;
+        left: 10px;
+       }
+       #image6{
+        position: absolute;
+        top: 2540px;
+        right: 10px;
+       }
+       .images{
+        margin: 10px;
+       }
+       
+    </style>
+    <title>Images</title>
+</head>
+<body>
+    <div class="container">
+        <div id="image1" class="images">
+            <img src="img4.jpg" alt="img4.jpg">
+        </div>
+        <div id="image2" class="images">
+            <img src="img5.jpg" alt="img5.jpg">
+        </div>
+        <div id="image3" class="images">
+            <img src="img6.webp" alt="mg6.webp">
+        </div>
+        <div id="image4" class="images">
+            <img src="img7.webp" alt="mg7.webp">
+        </div>
+        <div id="image5" class="images">
+            <img src="img8.jpg" alt="img8.jpg">
+        </div>
+        <div id="image6" class="images">
+            <img src="img9.jpg" alt="img9.jpg">
+        </div>
+
+    </div>
+    
+</body>
+</html>
